@@ -10,6 +10,8 @@ func main() {
 		var D, A int
 		fmt.Scanln(&D, &A)
 
+		// 笨蛋了，日语中的 以上，以下 包含等于的意思
+		// 不包含的说法是 より小さい・未満　より大きい・超（ちょう）
 		switch D {
 		case 1:
 			if R >= 1600 && R <= 2799 {
